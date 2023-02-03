@@ -52,4 +52,5 @@ if __name__ == '__main__':
     
     session.bulk_save_objects(reviews)
     session.commit()
+    import ipdb; ipdb.set_trace()
     session.close()
